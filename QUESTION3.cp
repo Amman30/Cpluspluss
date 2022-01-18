@@ -12,11 +12,12 @@ using namespace std;
 int main()
 {
     int number,i;
+     int temperatures[number];
     int hot_days = 0,pleasant_days = 0,cold_days= 0;
     cout << "HOW MANY TEMPERATURES DO YOU WANT TO CHECK: ";
     cin >> number;
 
-    int temperatures[number];
+   
     cout << "ENTER THE TEMPERATURES OF" << number <<"DAYS"<< endl;
     for (i = 0; i < number; i++)
         cin >> temperatures[i];
