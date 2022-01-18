@@ -13,7 +13,7 @@ int main()
 {
     int number,i;
     int hot_days = 0,pleasant_days = 0,cold_days= 0;
-    cout << "Number of days: ";
+    cout << "HOW MANY TEMPERATURES DO YOU WANT TO CHECK: ";
     cin >> number;
 
     int temperatures[number];
